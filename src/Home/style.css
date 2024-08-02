@@ -1,0 +1,116 @@
+.hsection {
+  margin: auto;
+
+  display: grid;
+  justify-content: space-evenly;
+  height: 100vh;
+  background-color: #0000002b;
+}
+.save-segment {
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  height: 100%;
+}
+.save-segment-button {
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.popup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 500px;
+  background-color: #fff;
+  margin-left: 70px;
+}
+.popup-header {
+  padding-top: 10px;
+  font-size: 30px;
+  width: 500px;
+  background-color: #8ab98a;
+  position: relative;
+  /* bottom:105px; */
+}
+.popup-header-text {
+  text-align-last: left;
+}
+
+.left-icon {
+  position: relative;
+  top: -1px;
+  font-size: 50px;
+}
+
+.input-label {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+.input-text {
+  width: 300px;
+  border: solid 1.5px #a59393;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.add-new-sehema {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.blue-box {
+  display: flex;
+  flex-direction: column;
+}
+.schema-dropdown {
+  position: relative;
+  display: inline-block;
+}
+/* .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+} */
+.popup-footer {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #b9cdbf;
+  position: relative;
+}
+.footer-button-1 {
+  background-color: #8ab98a;
+  border: none;
+  color: rgb(17, 16, 16);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.footer-button-2 {
+  background-color: #f1f7f5;
+  border: none;
+  color: rgb(238, 11, 11);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  border-radius: 5px;
+}
